@@ -1,0 +1,26 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+      - name: npm install
+        run: npm install
+      - name: test
+        run: npm test
+      - name: console
+        run: npm run console
+      - name: analise
+        run: npm run analise
+      - name: complete
+        run: npm run complete
+

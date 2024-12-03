@@ -1,0 +1,18 @@
+{
+  "name": "my-ci-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "console": "node index.js",
+    "test": "jest",
+    "analise":"node analise.js",
+    "complete": "node complete.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,1 @@
+console.log("---Analise all jobs---")
