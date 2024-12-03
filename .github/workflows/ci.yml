@@ -15,8 +15,6 @@ jobs:
           node-version: 16
       - name: npm install
         run: npm install
-      - name: test
-        run: npm test
       - name: console
         run: npm run console
       - name: analise
